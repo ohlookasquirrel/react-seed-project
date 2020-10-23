@@ -1,0 +1,21 @@
+$table-bg:                    $brand-background;
+$table-accent-bg:             $brand-light;
+$table-hover-bg:              $brand-highlight-lighter;
+$table-border-color:          $brand-lighter;
+
+.table {
+
+  tbody {
+    border: 2px solid $brand-lighter;
+  }
+
+  thead {
+    background-color:   $brand-medium;
+
+    &.light {
+      background-color: $white;
+    }
+
+  }
+
+}
